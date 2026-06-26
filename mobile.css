@@ -1,0 +1,353 @@
+@media (max-width: 570px) {
+
+    .menu{
+        display: none;
+    }
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+}
+.hamburger::before {
+    content: "☰";
+}
+.toggle:checked ~ .hamburger::before{
+    content: "✖";
+}
+.toggle:checked ~ .menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (max-width: 570px) {
+
+    /* ===== HEADER ===== */
+    .header {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .menu a {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+    .bit1 {
+        width: 100%;
+    }
+    .dit {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+    .ditt {
+        margin-left: 20px;
+    }
+    .ditt h1 {
+        font-size: 32px;
+    }
+    .ditt h5 {
+        font-size: 18px;
+    }
+    .btnn {
+        margin-left: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btnn1, .btnn2 {
+        width: 100%;
+    }
+
+    /* ===== BIGG / DIJA / BIGGZ ===== */
+    .bigg {
+        flex-direction: column;
+        height: auto;
+    }
+    .biggy, .biggz {
+        width: 100%;
+    }
+    .dija {
+        margin-left: 20px;
+    }
+    .dija h2 {
+        font-size: 28px;
+    }
+    .dija p {
+        padding-right: 10px;
+    }
+
+    /* ===== GRID (services) ===== */
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* ===== DOD (stats strip) ===== */
+    .dod {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+    .divj {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+    .divj h2 {
+        font-size: 36px;
+    }
+    .divj p {
+        font-size: 16px;
+    }
+
+    /* ===== PTESH / GRIDI (course cards) ===== */
+    .ptesh {
+        height: auto;
+    }
+    .ptesh h4 {
+        margin-left: 20px;
+    }
+    .ptesh h2 {
+        font-size: 28px;
+    }
+    .gridi {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4 {
+        height: 300px;
+    }
+
+    /* ===== BUTTON / CTA ===== */
+    .buttn {
+        width: 90%;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .testi {
+        height: auto;
+        padding: 30px 0;
+    }
+    .divot {
+        width: 95%;
+    }
+    .difer {
+        flex-direction: column;
+        height: auto;
+    }
+    .pic {
+        width: 100%;
+    }
+    .wording {
+        width: 100%;
+    }
+
+    /* ===== FAQ ===== */
+    .faq {
+        height: auto;
+    }
+    .ffaq {
+        flex-direction: column;
+        height: auto;
+    }
+    .img-faq {
+        width: 100%;
+        height: 250px;
+    }
+    .wrd-faq {
+        width: 100%;
+        height: auto;
+    }
+    .faq-cont {
+        margin-left: 0;
+        padding: 0 15px;
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        height: auto;
+    }
+    .footy {
+        flex-direction: column;
+        height: auto;
+        gap: 0;
+    }
+    .foot {
+        padding: 15px 0;
+    }
+
+    /* ===== ABOUT HERO / CONTRA / CORSE ===== */
+    .bout-hero, .contra, .corse {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .bot-hero, .contra-hero, .cose {
+        width: 100%;
+        margin-left: 0;
+    }
+    .bot-hero h2, .contra-hero h2, .cose h2 {
+        font-size: 28px;
+    }
+
+    /* ===== BOTME / BOT1 / BITMIT ===== */
+    .botme {
+        height: auto;
+    }
+    .bot1, .bot2 {
+        flex-direction: column;
+        height: auto;
+    }
+    .bitmit0, .bitmit1, .bitmit2, .bitmit3 {
+        width: 100%;
+        height: 300px;
+    }
+    .bitmit2 {
+        height: auto;
+        padding: 30px 0;
+        gap: 25px;
+    }
+    .kard {
+        width: 90%;
+    }
+
+    /* ===== TRANS / TRAZ (orbit animation row) ===== */
+    .trans {
+        height: auto;
+        padding: 30px 0;
+    }
+    .traz {
+        flex-direction: column;
+    }
+    .tranz0, .tranz1, .tranz2 {
+        width: 150px;
+        height: 150px;
+    }
+    .alid {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* ===== VAL ===== */
+    .val {
+        height: auto;
+    }
+    .val h4, .val h2 {
+        margin-left: 20px;
+    }
+    .val h2 {
+        font-size: 28px;
+    }
+
+    /* ===== LAD / LAI / LAO (numbered list section) ===== */
+    .klad {
+        height: auto;
+    }
+    .lad {
+        flex-direction: column;
+        height: auto;
+    }
+    .lai, .lao {
+        width: 100%;
+    }
+    .lai h2 {
+        padding: 15px 20px;
+        font-size: 40px;
+    }
+    .lao h2 {
+        font-size: 26px;
+        padding-top: 5px;
+    }
+
+    /* ===== GET-IN / GETO / GOTE / FRE ===== */
+    .get-in {
+        flex-direction: column;
+        height: auto;
+    }
+    .geto, .gote {
+        width: 100%;
+        height: auto;
+    }
+    .geto h4, .geto p {
+        padding-left: 20px;
+    }
+    .fre {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .fer {
+        width: 100%;
+    }
+    .ref {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    /* ===== CONTACT FORM (myform) ===== */
+    .myform {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    /* ===== COB / CURB (courses listing) ===== */
+    .cob {
+        flex-direction: column;
+        height: auto;
+    }
+    .cur0, .cur1 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .casd1, .casd2 {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* ===== BLOC / SART (CTA banner) ===== */
+    .bloc {
+        height: 300px;
+    }
+    .sart {
+        height: auto;
+        padding: 30px 15px;
+        margin-top: 60px;
+    }
+    .sart h2 {
+        font-size: 24px;
+    }
+
+    /* ===== GEP / TOM (registration form section) ===== */
+    .gep {
+        height: auto;
+        padding: 30px 0;
+    }
+    .tom {
+        width: 95%;
+        height: auto;
+        padding: 20px 0;
+    }
+    .reg-form {
+        width: 90%;
+    }
+}
